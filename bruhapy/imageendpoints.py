@@ -1,7 +1,6 @@
+import bruhapy
 import requests as req
 import json
-import bruhapy
-
 def taco():
     response = req.get(f'https://bruhapi.xyz/taco')
     if response.status_code != 200:
